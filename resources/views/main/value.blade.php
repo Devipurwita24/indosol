@@ -12,7 +12,9 @@
 <body>
     <section id="value" data-aos="fade-up" data-aos-duration="3000">
         <div class="card value rounded-0">
-            <img class="img-line position-absolute bottom-1 end-0" src="assets/images/line_kanan.png" alt="">
+            <div class="square">
+                <img class="img-line-right" src="assets/images/line_kanan.png" alt="">
+            </div>
             <div class="container"><br><br>
                 <header class="text-center">
                     <H1 class="header-value">Shared Value</H1>
@@ -42,8 +44,9 @@
                     </div>
                 </div>
                 <br>
-                <div></div><img class="img-line position-absolute top-0 start-0" src="assets/images/line_kiri.png"
-                    alt="">
+                <div class="square">
+                    <img class="img-line-left" src="assets/images/line_kiri.png" alt="">
+                </div>
             </div>
         </div>
     </section>
