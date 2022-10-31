@@ -1,0 +1,205 @@
+:root {
+    --pink: #0455A4;
+}
+
+body {
+    margin: 0;
+}
+
+.floating {
+    position: fixed;
+    width: 85px;
+    height: 85px;
+    bottom: 40px;
+    right: 40px;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+}
+
+.btn-floating:hover {
+    width: auto;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.btn-floating span {
+    font-size: 16px;
+    margin-left: 5px;
+    transition: .2s;
+    line-height: o0px;
+    display: none;
+}
+
+/* CSS NAVBAR */
+.logo {
+    width: 70px;
+    right: 500;
+    top: 17px;
+}
+
+@font-face {
+    font-family: 'golden';
+    src: url('../font/GardenParty.otf');
+}
+
+@font-face {
+    font-family: 'polaris';
+    src: url('../font/polaris.otf');
+}
+
+@font-face {
+    font-family: 'josefin';
+    src: url('../font/JosefinSans-VariableFont_wght.ttf');
+}
+
+/* START CSS NAVBAR  */
+.navbar-header {
+    background: #fff;
+    box-shadow: 0px 2px 20px rgb(1 41 112 / 10%);
+    position: fixed;
+}
+
+.nav-link {
+    font-family: 'Polaris';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #4D4D4F;
+
+}
+
+li a::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: var(--pink);
+    bottom: -1em;
+}
+
+li:first-child {
+    margin-right: auto;
+}
+
+/* END CSS NAVBAR */
+
+/* CSS SLIDER */
+
+.carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.carousel-item {
+    background-image: url('assets/images/img_banner_new.png');
+    height: 25rem;
+    padding: 2%;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    /* position: relative; */
+}
+
+.text-slider {
+    margin-top: 4%;
+}
+
+.caption-slider h2 {
+    font-family: 'josefin';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.judul {
+    font-size: 30px;
+}
+
+
+@media screen and (max-width:900px) {
+    .carousel-indicators [data-bs-target] {
+        padding-bottom: 0;
+        bottom: 0;
+        position: relative;
+    }
+
+    .text-slider {
+        position: absolute;
+        bottom: 0px;
+        /* padding: 3%; */
+        padding-bottom: 20px;
+    }
+
+    .carousel-item {
+        height: 100%;
+        width: 100%;
+        margin-bottom: 0;
+        background-size: cover;
+        font-family: 'josefin';
+        font-style: normal;
+    }
+
+    .judul {
+        font-size: 15px;
+    }
+
+    .caption-slider h2 {
+        font-family: 'josefin';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: lighter;
+    }
+}
+footer h5{
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+}
+
+
+
+
+@media screen and (max-width:900px) {
+    .img-line {
+        flex: 47%;
+        max-width: 100%;
+    }
+
+    .carousel-item {
+        height: 18rem;
+    }
+
+    .value {
+        height: 100%;
+    }
+    footer h5{
+        font-size: 10px;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        align-content: center;
+    }
+    .logo {
+        width: 50px;
+        right: 100%;
+        top: 17px;
+    }
+    .navbar-header {
+        background: #fff;
+        box-shadow: 0px 2px 20px rgb(1 41 112 / 10%);
+        position: fixed;
+    }
+}

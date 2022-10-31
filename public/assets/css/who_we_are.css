@@ -1,0 +1,71 @@
+/* START CSS WHO WE ARE */
+.text-wwa {
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 50px;
+    text-align: justify;
+    color: #FFFFFF;
+    margin: 1%;
+}
+
+.header-wwa {
+    font-family: 'Polaris';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    /* margin-left: 5%; */
+    margin-bottom: 15%;
+    color: #FBFBFB;
+    text-align: left;
+
+}
+.img-wwa {
+    width: 100%;
+    line-height: 1vh;
+}
+.card-wwa {
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+}
+
+.content-wwa{
+    margin: 5%;
+}
+
+@media screen and (max-width:900px) {
+    .img-wwa {
+        width: 100%;
+        line-height: 1vh;
+    }
+
+    .card-wwa {
+        width: 100%;
+        background-size: cover;
+        height: 100%;
+    }
+
+    .text-wwa {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 100%;
+        line-height: 40px;
+        text-align: justify;
+        color: #FFFFFF;
+    }
+
+    .header-wwa {
+        font-family: 'Polaris';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #FBFBFB;
+        align-items: center;
+        text-align: center;
+    }
+    .content-wwa{
+        margin-left: 0;
+    }
+}
