@@ -10,24 +10,23 @@
 </head>
 
 <body>
-    <section id="value" data-aos="fade-up" data-aos-duration="3000">
-        <div class="card value rounded-0">
-            <div class="square">
-                <img class="img-line-right" src="assets/images/line_kanan.png" alt="">
-            </div>
+    <section id="value" >
+        <div style="border: none" class="card value rounded-0">
+            <img class="img-line-right" src="assets/images/line_kanan.png" alt="">
+            <img class="img-line-left" src="assets/images/line_kiri.png" alt="">
             <div class="container"><br><br>
                 <header class="text-center">
                     <H1 class="header-value">Shared Value</H1>
                 </header>
                 <div class="row text-center my-3">
-                    <div class="col-md-4 my-3">
+                    <div class="col-md-4 my-3" data-aos="fade-up">
                         <br>
                         <img src="assets/images/img_group.png" class="image-value" alt="">
                         <h3 class="my-3"style="font-family: josefin;font-weight: 700;color: #4D4D4F;">
                             integrity</h3>
                         <h5 style="font-weight: 400;color: #4D4D4F; font-family:josefin;">Honour in truthfulness.</h5>
                     </div>
-                    <div class="col-md-4 my-3">
+                    <div class="col-md-4 my-3" data-aos="fade-up">
                         <img src="assets/images/img_building.png" class="image-value" alt="">
                         <h3 class="my-3"style="font-family: josefin;font-weight: 700;color: #4D4D4F;">
                             Professionalism</h3>
@@ -35,7 +34,7 @@
                         <h5 style="font-weight: 400;color: #4D4D4F; font-family:josefin;">innovative, and always</h5>
                         <h5 style="font-weight: 400;color: #4D4D4F; font-family:josefin;">striving for excellence.</h5>
                     </div>
-                    <div class="col-md-4 my-3">
+                    <div class="col-md-4 my-3" data-aos="fade-up">
                         <img src="assets/images/img_tech.png" class="image-value" alt="">
                         <h3 class="my-3"style="font-family: josefin;font-weight: 700;color: #4D4D4F;">
                             High-Tech</h3>
@@ -44,9 +43,6 @@
                     </div>
                 </div>
                 <br>
-                <div class="square">
-                    <img class="img-line-left" src="assets/images/line_kiri.png" alt="">
-                </div>
             </div>
         </div>
     </section>
