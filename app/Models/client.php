@@ -11,7 +11,7 @@ class client extends Model
     protected $primary_key = 'id';
     public $timestamps = false;
     protected $fillable = [
-        'nama_client', 'logo_client'
+         'logo_client'
     ];
     use HasFactory;
 }

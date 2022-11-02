@@ -9,7 +9,7 @@
 </head>
 <body>
     <section id="talk_to_us" data-aos="fade-up" data-aos-duration="1500">
-        <div class="card card-ttu rounded-0" style="background-image: url('assets/images/img_banner_talk_to_us.png'); background-size:cover; background-position: center;">
+        <div class="card card-ttu rounded-0" style="background-image: url('assets/images/img_banner_talk_to_us.png'); background-size:cover; background-position: center;border: none" >
             <div class="container-fluid content-ttu text-light">
                 <div class="row content-ttu">
                     <div class="col-md-6">

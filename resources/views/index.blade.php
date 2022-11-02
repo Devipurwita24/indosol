@@ -54,8 +54,6 @@
     <a href="https://wa.me/6281334788231">
         <img class="floating" style="margin-top: 16px;" src="assets/images/floating_button_whatsapp.png" alt="whatsapp">
     </a>
-    @include('sweetalert::alert')
-
 
     {{-- START FOOTER --}}
     <footer style="background-color: #0354A4; padding:1.8%">

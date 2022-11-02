@@ -7,13 +7,15 @@ use Illuminate\Http\Request;
 
 class clientController extends Controller
 {
+    public function show()
+    {
+        $data = client::all();
+        return view('crud.client', compact('data'));
+    }
     public function index()
     {
         $data = client::all();
-        // return $data;
-        return view('index', compact(
-            'data'
-        ));
+        return view('index', compact('data'));
     }
     public function create()
     {
@@ -26,7 +28,6 @@ class clientController extends Controller
     public function store(Request $request)
     {
         $data = new client;
-        $data->nama_client = $request->nama_client;
         if ($request->file('logo_client')) {
             $gambar = $request->file('logo_client');
             $name = $gambar->getClientOriginalName();
@@ -34,11 +35,19 @@ class clientController extends Controller
             $data->logo_client = $name;
         }
         $data->save();
-        $data = client::all();
-        // return Redirect('/')->with([
-        //     'message' => 'Event Berhasil Ditambahkan! ',
-        //     'message_type' => 'success',
-        // ])->withInput();
-        return Redirect('/')->with('success', 'Client berhasil ditambahkan!');
+        // $data = client::all();
+        return Redirect('/adminDashboard')->with('success', 'Client berhasil ditambahkan!');
+    }
+
+    public function delete($id)
+    {
+        $post = client::where('id', $id)->first();
+
+        if ($post != null) {
+            $post->delete();
+            return redirect()->back()->with('success', 'Data berhasil dihapus!');
+        }
+        return redirect()->back()->with(['message'=> 'Wrong ID!!']);
+
     }
 }
