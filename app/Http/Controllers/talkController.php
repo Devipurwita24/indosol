@@ -9,6 +9,12 @@ use Illuminate\Support\Facades\Validator;
 
 class talkController extends Controller
 {
+    public function show()
+    {
+        $data = talk_to_us::all();
+        $data = talk_to_us::orderBy('created_at', 'desc')->get();
+        return view('cms.CMS_talk_to_us', compact('data'));
+    }
     public function store(Request $request)
     {
         $validator = validator::make(
@@ -38,5 +44,16 @@ class talkController extends Controller
         } else {
             return ApiFormatter::createApi(400, 'failed');
         }
+    }
+    public function delete($id)
+    {
+        $post = talk::where('id', $id)->first();
+
+        if ($post != null) {
+            $post->delete();
+            return redirect()->back()->with('success', 'Data berhasil dihapus!');
+        }
+        return redirect()->back()->with(['message'=> 'Wrong ID!!']);
+
     }
 }

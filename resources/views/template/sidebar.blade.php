@@ -20,12 +20,17 @@
 
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item active">
-        <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true"
+        <a class="nav-link" href="/adminDashboard" aria-expanded="true"
             aria-controls="collapsePages">
-            <i class="fas fa-fw fa-folder"></i>
+            <i class="fas fa-fw fa-building"></i>
             <span>Clients</span>
         </a>
-        <div id="collapsePages" class="collapse" aria-labelledby="headingPages"
+        <a class="nav-link" href="/CMS_talk_to_us" aria-expanded="true"
+            aria-controls="collapsePages">
+            <i class="fas fa-fw fa-comment"></i>
+            <span>Talk to Us</span>
+        </a>
+        {{-- <div id="collapsePages" class="collapse" aria-labelledby="headingPages"
             data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Login Screens:</h6>
@@ -37,7 +42,7 @@
                 <a class="collapse-item" href="404.html">404 Page</a>
                 <a class="collapse-item active" href="blank.html">Blank Page</a>
             </div>
-        </div>
+        </div> --}}
     </li>
 
     <!-- Divider -->

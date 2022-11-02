@@ -1,9 +1,9 @@
-@extends('crud.admin')
+@extends('cms.admin')
 @section('content')
     <!-- Page Heading -->
     <h1 class="h3 mb-2 text-gray-800">List Clients</h1>
-    <p class="mb-4">Data berikut akan tampil pada Landing page.</p><a
-    href="/create_client">TAMBAH DATA CLIENT</a>.</p>
+    <p class="mb-4">Data berikut akan tampil pada Landing page.</p>
+    <button type="button" class="btn btn-primary"><a href="/create_client" class="text-light">+ Add Client</a></button><br><br>
 
     <!-- DataTales Example -->
     <div class="card shadow mb-4">
@@ -34,8 +34,9 @@
                                 <td><img class="swiper-slide" style="width: 70px"
                                         src="{{ asset('uploads/logo_client/' . $data->logo_client) }}" alt="logo"></td>
                                 <td class="col-md-1">
-                                    <a href="/delete_client/{{ $data->id }}" class="btn btn-icon btn-danger delete"><i class="fa fa-trash"></i></a>
-                                    
+                                    <a href="/delete_client/{{ $data->id }}" class="btn btn-icon btn-danger delete"><i
+                                            class="fa fa-trash"></i></a>
+
                                 </td>
                             </tr>
                         @endforeach

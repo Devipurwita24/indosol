@@ -9,7 +9,7 @@ class talk_to_us extends Model
 {
     protected $table = 'talk_to_us';
     protected $primary_key = 'id';
-    public $timestamps = false;
+    public $timestamps = true;
     protected $fillable = [
         'first_name', 'last_name','email','phone_number','messege'
     ];
