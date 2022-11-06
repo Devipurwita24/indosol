@@ -13,7 +13,7 @@ class talkController extends Controller
     {
         $data = talk_to_us::all();
         $data = talk_to_us::orderBy('created_at', 'desc')->get();
-        return view('cms.CMS_talk_to_us', compact('data'));
+        return view('crud.CMS_talk_to_us', compact('data'));
     }
     public function store(Request $request)
     {

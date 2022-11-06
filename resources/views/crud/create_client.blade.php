@@ -1,5 +1,5 @@
 
-@extends('cms.admin')
+@extends('crud.admin')
 @section('content')
 
         <!-- //start: Navbar Section -->

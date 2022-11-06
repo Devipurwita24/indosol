@@ -10,7 +10,7 @@ class clientController extends Controller
     public function show()
     {
         $data = client::all();
-        return view('cms.client', compact('data'));
+        return view('crud.client', compact('data'));
     }
     public function index()
     {
@@ -20,7 +20,7 @@ class clientController extends Controller
     public function create()
     {
         $client = new client;
-        return view('cms.create_client', compact(
+        return view('crud.create_client', compact(
             'client',
             'client'
         ));
