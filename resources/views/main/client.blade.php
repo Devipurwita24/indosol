@@ -10,13 +10,13 @@
 </head>
 
 <body>
-    <section id="client" style="height: 100%" data-aos="zoom-in" data-aos-duration="2000">
+    <section id="client" style="height: 100%">
         <center>
             <div class="card card-value  shadow-lg bg-body rounded">
                 <H1 class="header-client text-center">Clients</H1>
                 <div class="swiper">
                     <div class=" mySwiper">
-                        <div class="swiper-wrapper">
+                        <div class="swiper-wrapper"> 
                             @foreach ($data as $value)
                                 <img class="swiper-slide" width="10px"
                                     src="{{ asset('uploads/logo_client/' . $value->logo_client) }}" alt="logo">
@@ -38,8 +38,8 @@
                 spaceBetween: 2,
                 loop: false,
                 centerSlide: false,
-                fade: 'false',
-                grabCursor: 'false',
+                fade: 'true',
+                grabCursor: 'true',
                 // pagination: {
                 //     el: ".swiper-pagination",
                 //     clickable: false,

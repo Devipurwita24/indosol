@@ -11,14 +11,14 @@
 </head>
 
 <body>
-    <section id="who_we_are" data-aos="fade-up">
+    <section id="who_we_are" >
         <div class="card card-wwa rounded-0" style="background-image: url('assets/images/img_banner_who_we_are.png');">
             <div class="container-fluid" style="padding: 3%">
                 <div class="row my-5">
                     <div class="col-md-7">
-                        <img class="img-wwa" src="assets/images/img_group_founder.png" alt="">
+                        <img class="img-wwa" src="assets/images/img_group_founder.png" data-aos="fade-up" alt="">
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-5" data-aos="fade-right">
                         <div class="content-wwa">
                             <h1 class="my-3 header-wwa">Who We Are?</h1>
                             <h3  class="text-wwa">From a back ground of

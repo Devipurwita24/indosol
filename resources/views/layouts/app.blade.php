@@ -31,14 +31,21 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<<<<<<< HEAD
+=======
                     <!-- Left Side Of Navbar -->
+>>>>>>> 679406262c952fd170aae45f3b62956b8b5e081c
                     <ul class="navbar-nav me-auto">
 
                     </ul>
 
+<<<<<<< HEAD
+                    <ul class="navbar-nav ms-auto">
+=======
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
                         <!-- Authentication Links -->
+>>>>>>> 679406262c952fd170aae45f3b62956b8b5e081c
                         @guest
                             @if (Route::has('login'))
                                 <li class="nav-item">
