@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -102,12 +101,6 @@
 
     </div>
     {{-- <div class="container">
-=======
-@extends('layouts.app')
-
-@section('content')
-<div class="container">
->>>>>>> 679406262c952fd170aae45f3b62956b8b5e081c
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -175,14 +168,9 @@
             </div>
         </div>
     </div>
-<<<<<<< HEAD
 </div> --}}
     @include('template.script')
 
 </body>
 
 </html>
-=======
-</div>
-@endsection
->>>>>>> 679406262c952fd170aae45f3b62956b8b5e081c

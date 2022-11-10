@@ -17,17 +17,12 @@ class talkController extends Controller
     }
     public function store(Request $request)
     {
-        $validator = validator::make(
-            $request->all(),
+        $validated = $request->validate(
             [
                 'first_name' => 'required',
                 'last_name' => 'required',
-                'email' => 'required',
+                'email' => 'required|email:rfc,dns',
                 'phone_number' => 'required',
-            ],
-            [
-                'nama_lengkap.required' => 'nama tidak boleh kosong!'
-
             ]
         );
 
@@ -47,7 +42,7 @@ class talkController extends Controller
     }
     public function delete($id)
     {
-        $post = talk::where('id', $id)->first();
+        $post = talk_to_us::where('id', $id)->first();
 
         if ($post != null) {
             $post->delete();

@@ -1,7 +1,7 @@
 .header-wwd {
     font-weight: 500;
     font-family: polaris;
-    color: #4D4D4F;
+    color: #262629;
     /* width: 32%; */
     text-align: left;
     align-items: left;
@@ -18,7 +18,7 @@
 .container-wwd {
     align-items: center;
     display: flex;
-    margin-left: 1.5%;
+    /* margin-left: 1.5%; */
     margin-bottom: 1%;
     /* margin-right: 23%; */
 }
@@ -28,7 +28,7 @@
     flex-direction: column;
     position: relative;
     width: 400px;
-    margin-right: 8%;
+    /* margin-right: 8%; */
 }
 
 label {
@@ -36,7 +36,7 @@ label {
     font-weight: 500;
     cursor: pointer;
     border-right: 2px solid #7f7f81;
-    width: 120%;
+    width: 100%;
 }
 
 .list p {
@@ -98,7 +98,7 @@ label {
     display: none;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:900px) {
     .card-wwd {
         max-width: 90%;
         /* margin-bottom: 2%; */
@@ -121,17 +121,18 @@ label {
     }
 
     .text img {
-        width: 140px;
-        height: 74px;
+        width: 120px;
+        height: 60px;
         margin: 1%;
         margin-top: 4%;
-        margin-left: 6%;
         justify-content: left;
-        margin-right: 20px;
+        /* margin-right: 20px; */
     }
 
     .content-list .list label p {
-        font-size: 14px;
+        font-size: 12px;
+        width: 100%;
+
         height: 15px;
         margin-left: 10%;
         line-height: 20px;
@@ -139,12 +140,11 @@ label {
     }
 
     .text-content .text p {
-        font-size: 14px;
+        font-size: 12px;
         width: 100%;
-        margin-left: 6%;
+        /* margin-left: 6%; */
         height: 20px;
         line-height: 20px;
-        margin: 8%;
     }
 
     .container-wwd {
@@ -159,18 +159,11 @@ label {
         font-weight: 500;
         cursor: pointer;
         border-right: 2px solid #7f7f81;
-        width: 120%;
+        width: 100%;
     }
 
-    .text-content {
+    /* .text-content {
         margin-left: 3%;
-    }
+    } */
 
 }
-
-/* @media screen and (max-width:400px) {
-    .list p{
-        line-height: 20px;
-        margin: 20%;
-    }
-} */

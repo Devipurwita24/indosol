@@ -34,21 +34,31 @@
                         <form action="{{ route('store_talk_to_us') }}" method="POST">
                             @csrf
                             <div class="mb-3 mx-5">
-                                <input class="form-control-lg" name="first_name" type="text"
-                                    placeholder="First Name*">
+                                <input class="form-control-lg @error('first_name') is-invalid @enderror" name="first_name" type="text" value="{{ old('first_name') }}" placeholder="First Name*">
+                                @error('first_name')
+                                    <div class="invalid-feedback">{{ $message }}</div>
+                                @enderror
                             </div>
                             <div class="mb-3 mx-5">
-                                <input class="form-control-lg" name="last_name" type="text" placeholder="Last Name*">
+                                <input class="form-control-lg @error('last_name') is-invalid @enderror" name="last_name" type="text" value="{{ old('last_name') }}" placeholder="Last Name*">
+                                @error('last_name')
+                                    <div class="invalid-feedback">{{ $message }}</div>
+                                @enderror
                             </div>
                             <div class="mb-3 mx-5">
-                                <input class="form-control-lg" name="email" type="text" placeholder="Email*">
+                                <input class="form-control-lg @error('email') is-invalid @enderror" name="email" type="email" value="{{ old('email') }}" aria-describedby="emailHelp" placeholder="Email*">
+                                @error('email')
+                                    <div class="invalid-feedback">{{ $message }}</div>
+                                @enderror
                             </div>
                             <div class="mb-3 mx-5">
-                                <input class="form-control-lg" name="phone_number" type="text"
-                                    placeholder="Phone Number*">
+                                <input class="form-control-lg @error('phone_number') is-invalid @enderror" name="phone_number" type="text"value="{{ old('phone_number') }}" placeholder="Phone Number*">
+                                @error('phone_number')
+                                    <div class="invalid-feedback">{{ $message }}</div>
+                                @enderror
                             </div>
                             <div class="mb-3 mx-5">
-                                <textarea class="form-control-lg" name="messege" id="exampleFormControlTextarea1" placeholder="Message (Optional)"
+                                <textarea class="form-control-lg" name="messege" id="exampleFormControlTextarea1" value="{{ old('messege') }}" placeholder="Message (Optional)"
                                     rows="5"></textarea>
                             </div>
                             <button class="button-send text-center d-grid gap-2 col-4 mx-auto" type="sumbit"> Send
