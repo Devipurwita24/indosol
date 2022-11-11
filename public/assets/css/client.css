@@ -25,14 +25,18 @@
     padding: 2%;
     /* align-items: center; */
     justify-content: center;
+    align-items: center;
     max-width: 90%;
     box-shadow: darkgreen;
 
 }
-.card-value{
+
+.card-client {
     max-width: 90%;
     margin-bottom: 2%;
 }
+
+
 
 @media screen and (max-width:900px) {
     .card-value {
@@ -55,7 +59,7 @@
         font-style: normal;
         font-weight: 3800;
         font-size: 20px;
-        line-height: 40px;
+        margin: 2%;
         align-items: center;
         text-align: center;
 
@@ -66,12 +70,14 @@
         width: 80%;
         /* margin-bottom: 19%; */
 
-        margin-left: 10%;
+        margin-left: 0;
         margin-right: 10%;
-        
+
     }
-    .mySwiper{
-        margin-right: 12%;
+
+    .mySwiper {
+        margin-right: 9%;
+        overflow: hidden;
 
     }
 
