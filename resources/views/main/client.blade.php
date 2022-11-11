@@ -7,16 +7,39 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('assets/css/client.css') }}">
     <title>Document</title>
+    <style>
+        .swiper-button-next {
+            background-image: url(assets/images/img_arrow_kanan.png);
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-position: center;
+        }
+
+        .swiper-button-prev {
+            background-image: url(assets/images/img_arrow_kiri.png);
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-position: center;
+        }
+
+        .swiper-button-next::after {
+            display: none;
+        }
+
+        .swiper-button-prev::after {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
     <section id="client" style="height: 100%">
         <center>
-            <div class="card card-value  shadow-lg bg-body rounded">
+            <div class="card card-client shadow-lg bg-body rounded">
                 <H1 class="header-client text-center">Clients</H1>
                 <div class="swiper">
                     <div class=" mySwiper">
-                        <div class="swiper-wrapper"> 
+                        <div class="swiper-wrapper ">
                             @foreach ($data as $value)
                                 <img class="swiper-slide" width="10px"
                                     src="{{ asset('uploads/logo_client/' . $value->logo_client) }}" alt="logo">
