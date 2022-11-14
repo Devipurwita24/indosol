@@ -2,11 +2,10 @@
 .text-wwa {
     font-family: 'Josefin Sans';
     font-weight: 400;
-    font-size: 28px;
-    line-height: 50px;
+    font-size: 25px;
+    line-height: 45px;
     text-align: justify;
     color: #FFFFFF;
-    margin: 1%;
 }
 
 .header-wwa {
