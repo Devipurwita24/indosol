@@ -55,77 +55,77 @@
                     </div>
                     <div class="text-content">
                         <div class="list1 text">
-                            <div class="col-md-7" style="float: left">
+                            <div class="col-md-5" style="float: left">
                                 <p class="text-capt" data-aos="fade-right">1Land Survey
                                 </p>
                                 <p class="text-capt" data-aos="fade-right">Aerial Survey
                                 </p>
                                 <p class="text-capt" data-aos="fade-right">Hydrographic Survey</p>
                             </div>
-                            <div class="col-md-5" style="float: right">
+                            <div class="col-md-7" style="float: right">
                                 <img src="assets/images/img_survey.png" width="530px" height="310px" alt="">
                             </div>
                         </div>
 
                         <div class="list2 text">
-                            <div class="col-md-7" style="float: left">
+                            <div class="col-md-5" style="float: left">
                                 <p class="text-capt" data-aos="fade-right">2Land Survey
                                 </p>
                                 <p class="text-capt" data-aos="fade-right">Aerial Survey
                                 </p>
                                 <p class="text-capt" data-aos="fade-right">Hydrographic Survey</p>
                             </div>
-                            <div class="col-md-5" style="float: right">
+                            <div class="col-md-7" style="float: right">
                                 <img src="assets/images/img_survey2.png" width="530px" height="310px" alt="">
                             </div>
                         </div>
                         <div class="list3 text">
-                            <div class="col-md-7" style="float: left">
+                            <div class="col-md-5" style="float: left">
                                 <p class="text-capt" data-aos="fade-right">3Land Survey
                                 </p>
                                 <p class="text-capt" data-aos="fade-right">Aerial Survey
                                 </p>
                                 <p class="text-capt" data-aos="fade-right">Hydrographic Survey</p>
                             </div>
-                            <div class="col-md-5" style="float: right">
+                            <div class="col-md-7" style="float: right">
                                 <img src="assets/images/img_survey.png" width="530px" height="310px" alt="">
                             </div>
                         </div>
                         <div class="list4 text">
-                            <div class="col-md-7" style="float: left">
+                            <div class="col-md-5" style="float: left">
                                 <p class="text-capt" data-aos="fade-right">4Land Survey
                                 </p>
                                 <p class="text-capt" data-aos="fade-right">Aerial Survey
                                 </p>
                                 <p class="text-capt" data-aos="fade-right">Hydrographic Survey</p>
                             </div>
-                            <div class="col-md-5" style="float: right">
+                            <div class="col-md-7" style="float: right">
                                 <img src="assets/images/img_survey2.png" width="530px" height="310px"
                                     alt="">
                             </div>
                         </div>
                         <div class="list5 text">
-                            <div class="col-md-7" style="float: left">
+                            <div class="col-md-5" style="float: left">
                                 <p class="text-capt" data-aos="fade-right">5Land Survey
                                 </p>
                                 <p class="text-capt" data-aos="fade-right">Aerial Survey
                                 </p>
                                 <p class="text-capt" data-aos="fade-right">Hydrographic Survey</p>
                             </div>
-                            <div class="col-md-5" style="float: right">
+                            <div class="col-md-7" style="float: right">
                                 <img src="assets/images/img_survey.png" width="530px" height="310px"
                                     alt="">
                             </div>
                         </div>
                         <div class="list6 text">
-                            <div class="col-md-7" style="float: left">
+                            <div class="col-md-5" style="float: left">
                                 <p class="text-capt" data-aos="fade-right">6Land Survey
                                 </p>
                                 <p class="text-capt" data-aos="fade-right">Aerial Survey
                                 </p>
                                 <p class="text-capt" data-aos="fade-right">Hydrographic Survey</p>
                             </div>
-                            <div class="col-md-5" style="float: right">
+                            <div class="col-md-7" style="float: right">
                                 <img src="assets/images/img_survey2.png" width="530px" height="310px"
                                     alt="">
                             </div>

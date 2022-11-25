@@ -35,10 +35,11 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::middleware(['auth'])->group(function () {
     // CMS
-    Route::get('/adminDashboard', 'App\Http\Controllers\clientController@show');
+    Route::get('/cms', 'App\Http\Controllers\clientController@show');
     Route::get('/delete_client/{id}', 'App\Http\Controllers\clientController@delete')->name('delete_client');
     Route::get('/CMS_talk_to_us', 'App\Http\Controllers\talkController@show');
     Route::get('/delete_talk/{id}', 'App\Http\Controllers\talkController@delete')->name('delete_talk');
     Route::get('/loginCMS', 'App\Http\Controllers\userController@login');
     Route::get('/create_client', 'App\Http\Controllers\clientController@create');
 });
+  
